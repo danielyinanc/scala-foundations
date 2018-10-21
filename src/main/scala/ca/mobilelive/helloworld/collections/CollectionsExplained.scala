@@ -22,7 +22,7 @@ object CollectionsExplained extends App {
 
   def lists() = {
     val numbers = List(1, 2, 3, 4, 5, 1, 2, 3, 4, 5) //numbers: List[Int]
-    numbers(3) = 10 // will result in error as lists are immutable
+    //numbers(3) = 10 // will result in error as lists are immutable
     numbers(3) // 4
   }
 
